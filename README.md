@@ -19,8 +19,8 @@ npm start
 
 ## When to use the package
 
-- A consumer needs the following capability: Shared Zod schemas and TypeScript types for Markdown Reports Studio.
-- A producer and consumer of mdreports data need to share the published type or validation contract before exchanging payloads.
+- Validate a Markdown Reports request against the shared schema.
+- Share template and render-response contracts across the service and its client.
 
 ## Links
 
